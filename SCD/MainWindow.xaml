@@ -1,0 +1,18 @@
+﻿<Window x:Class="SCD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SCD"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="221.987" Width="420.312">
+    <Grid>
+        <Button Content="Load" HorizontalAlignment="Left" Margin="35,31,0,0" VerticalAlignment="Top" Width="92" Height="34" Click="Button_Click"/>
+        <CheckBox Content="code" HorizontalAlignment="Left" Margin="154,35,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="BIN" HorizontalAlignment="Left" Margin="154,52,0,0" VerticalAlignment="Top"/>
+        <Button Content="Convert" HorizontalAlignment="Left" Margin="260,31,0,0" VerticalAlignment="Top" Width="92" Height="34" Click="Button_Click_1"/>
+        <Label x:Name="lable1" Content="Label" HorizontalAlignment="Left" Margin="35,82,0,0" VerticalAlignment="Top" IsEnabled="False" Visibility="Hidden"/>
+        <Label x:Name="label2" Content="Label" HorizontalAlignment="Left" Margin="35,112,0,0" VerticalAlignment="Top" IsEnabled="False" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
